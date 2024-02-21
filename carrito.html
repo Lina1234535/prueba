@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito - EcoFert</title>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cherry+Swash:wght@700&family=Fredoka+One&family=Gemunu+Libre:wght@200&family=Kaushan+Script&family=Lobster&family=Lobster+Two&family=Londrina+Outline&family=Montserrat+Alternates:wght@500&family=Nova+Slim&family=Playball&family=Righteous&family=Rum+Raisin&family=Trade+Winds&family=Yanone+Kaffeesatz:wght@400;600&display=swap" rel="stylesheet">
+    <!--BOOTSTRAP-->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <!--CARRITO - CSS-->
+    <link rel="stylesheet" href="./css/carrito.css">
+</head>
+<body>
+    <!---B A R R A   D E   N A V E G A C I Ó N-->
+    <nav class="navbar navbar-expand-lg navbar-default bg-warning">
+      <img src="./img/logo.png" alt="" class="logo">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-filter-circle-fill" viewBox="0 0 16 16">
+            <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zM3.5 5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1 0-1zM5 8.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm2 3a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 0 1h-1a.5.5 0 0 1-.5-.5z"/>
+          </svg>
+        </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <div class="col-md-3">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
+                </li>
+              </div>
+              <div class="col-md-4">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./iniciarsesion.html">Iniciar sesión</a>
+              </li>
+            </div>
+            <div class="col-md-3">
+              <li class="nav-item">
+                <a class="nav-link active" href="./registrarsee.html">Registrarse</a>
+              </li>
+            </div>
+            <div class="col-md-3">
+              <li class="nav-item">
+                <a class="nav-link active" href="./carrito.html">Carrito</a>
+              </li>
+            </div>
+              <div class="col-md-5">
+              <li class="nav-item">
+                <a class="nav-link active" href="./quienessomos.html">Quienes somos</a>
+              </li>
+            </div>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!--P R O D U C T O S   D E L   C A R R I T O-->
+      <div class="page-nav">
+        <button id="checkout" class="button-checkout" onclick="pay()">Metodo de pago</button>
+        <button id="checkout" class="button-checkout" onclick="pay()">Continuar compra</button>
+        <button id="checkout" class="button-checkout" onclick="pay()">Pagar</button>
+        <button id="checkout" class="button-checkout" onclick="mostrar()">user</button>
+      </div>
+      <div class="page-content">    
+      </div>
+      <div class="page-content">
+          <div class="product-container">
+              <h3>nombre</h3>
+              <img src="./img/tomate.jpeg" />
+              <h1>$500</h1>
+              <button class="button-add"   >Agregar</button>
+          </div>
+      
+          <div class="product-container">
+              <h3>nombre</h3>
+              <img src="./img/planta.jpeg" />
+              <h1>$300</h1>
+              <button class="button-add"  >Agregar</button>
+          </div>
+      
+          <div class="product-container">  
+              <h3>nombre</h3>
+              <img src="./img/tomate.jpeg" />
+              <h1>$250</h1>
+              <button class="button-add"  >Agregar</button>
+          </div>
+      
+          <div class="product-container">
+              <h3>nombre</h3>
+              <img src="./img/planta.jpeg" />
+              <h1>$200</h1>
+              <button class="button-add"  >Agregar</button>
+          </div>
+      
+          <div class="product-container">
+              <h3>nombre</h3>
+              <img src="./img/tomate.jpeg" />
+              <h1>$100</h1>
+              <button class="button-add"  >Agregar</button>
+          </div>
+      
+          <div class="product-container">
+              <h3>nombre</h3>
+              <img src="./img/planta.jpeg" />
+              <h1>$650</h1>
+              <button class="button-add"  >Agregar</button>
+          </div>
+          <div class="product-container">
+              <h3>nombre</h3>
+              <img src="./img/tomate.jpeg" />
+              <h1>$500</h1>
+              <button class="button-add" >Agregar</button>
+          </div>
+          <div class="product-container">
+              <h3>nombre</h3>
+              <img src="./img/planta.jpeg" />
+              <h1>$650</h1>
+              <button class="button-add"  >Agregar</button>
+          </div>
+          <div class="product-container">
+              <h3>nombre</h3>
+              <img src="./img/tomate.jpeg" />
+              <h1>$650</h1>
+              <button class="button-add"  >Agregar</button>
+          </div>
+          <div class="product-container">
+              <h3>nombre</h3>
+              <img src="./img/planta.jpeg" />
+              <h1>$650</h1>
+              <button class="button-add"  >Agregar</button>
+          </div>
+          <div class="product-container">
+              <h3>nombre</h3>
+              <img src="./img/tomate.jpeg" />
+              <h1>$650</h1>
+              <button class="button-add" >Agregar</button>
+          </div>
+          <div class="product-container">
+              <h3>nombre</h3>
+              <img src="./img/planta.jpeg" />
+              <h1>$650</h1>
+              <button class="button-add" >Agregar</button>
+          </div>
+          <div class="product-container">
+              <h3>nombre</h3>
+              <img src="./img/tomate.jpeg" />
+              <h1>$650</h1>
+              <button class="button-add" >Agregar</button>
+          </div>
+          <div class="product-container">
+              <h3>nombre</h3>
+              <img src="./img/planta.jpeg" />
+              <h1>$650</h1>
+              <button class="button-add" >Agregar</button>
+          </div>
+          <div class="product-container">
+              <h3>nombre</h3>
+              <img src="./img/tomate.jpeg" />
+              <h1>$650</h1>
+              <button class="button-add" >Agregar</button>
+          </div>
+          <div class="product-container">
+              <h3>nombre</h3>
+              <img src="./img/planta.jpeg" />
+              <h1>$650</h1>
+              <button class="button-add" >Agregar</button>
+          </div>
+          
+   
+      
+
+
+      <!--P I E   D E   P A G I N A -->
+      <footer class="footer">
+        <div class="footer-info">
+            <p>¿Preguntas?<a href="tel:+52 771 207 14 13">Llama a +52 771 207 14 13 (HN)</a></p>
+            <ul class="footer-links">
+                <li class="footer-link__item"><a href="#">Preguntas frecuentes</a></li>
+                <li class="footer-link__item"><a href="#">Centro de ayuda</a></li>
+                <li class="footer-link__item"><a href="#">Términos y condiciones</a></li>
+                <li class="footer-link__item"><a href="#">Privacidad</a></li>
+                <li class="footer-link__item"><a href="#">Preferencias de cookies</a></li>
+                <li class="footer-link__item"><a href="#">Información corporativa</a></li>
+            </ul>
+            <select name="lenguage" id="lenguage">
+                <option value="es">Español</option>
+                <option value="es">English</option>
+            </select>
+        </div>
+    </footer>
+
+       <!--J a v a S c r i p t-->
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/restricciones.js"></script>
+</body>
+</html

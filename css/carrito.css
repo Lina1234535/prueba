@@ -1,0 +1,188 @@
+/*--------------L O G O    D E   L A   E M P R E S A ------------*/
+body{
+    background: rgb(221, 221, 221);
+}
+.logo{
+    height: 10%;
+    width: 10%;
+}
+
+.nav-item{
+    border-radius: 12%;
+}
+.nav-item:hover{
+    background: rgb(255, 255, 255);
+}
+
+.carousel{
+    height:auto;
+    width: 60%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.d-block{
+    height: 450px;
+    width: 60%;
+}
+.nav-link{
+    color: black;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 28px;
+    text-align: center;
+
+}
+.navbar-toggler svg{
+    width: 35px;
+    height: 35px;
+}
+.navbar-toggler svg:hover{
+    color: green;
+}
+
+/*--------------P R O D U C T O S  D E L  C A R R I T O-------------*/
+
+button {
+    font-size: 16px;
+    text-align: center;
+    border-radius: 8px;
+    padding: 10px 20px;
+}
+
+.page-nav {
+    background-color: #000000;
+    border: 1px solid transparent;
+    position: relative;
+}
+
+.page-nav h1 {
+    margin: 20px;
+}
+
+.button-checkout {
+    background-color: #008CBA;
+    color: black;
+    border: 2px solid black; 
+    transition-duration: 0.4s;
+    position:static;
+    right: 15px;
+    bottom: 15px;
+}
+
+.button-checkout:hover {
+    background-color: green; 
+    color: white;
+}
+
+.page-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.product-container {
+    margin: 15px;
+    padding: 2px 16px;
+    position: relative;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1);
+    background-color: white;
+}
+
+.product-container:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+
+.product-container img {
+    width: 250px;
+}
+
+.product-container h1 {
+    margin-bottom: 10px;
+    margin-left: 15px;
+}
+
+.button-add {
+    background-color: white;
+    color: black;
+    border: 2px solid #4CAF50;
+    transition-duration: 0.4s;
+    position: absolute;
+    right: 15px;
+    bottom: 10px;
+    display: none;
+}
+
+  
+.button-add:hover {
+    background-color: #4CAF50; 
+    color: white;
+}
+
+
+
+
+/*--------------------------------------------P I E   D E   P A G I N A-------------------------------------*/
+.footer-signin .new{
+    margin-top: 12px;
+    font-size: 17px;
+    color: #727272;
+    font-weight: lighter;
+}
+.footer-signin .new a{
+    color: white;
+    text-decoration: none;
+    margin-left: 5px;
+}
+.footer-signin .new a:hover{
+    text-decoration: underline;
+}
+.footer-signin .protect{
+    margin-top: 12px;
+    font-size: 13px;
+    color: #9b9b9b;
+}
+.footer-signin .protect a{
+    text-decoration: none;
+    color: #5656ff;
+}
+.footer{
+    padding: 25px 40px 50px;
+    background-color: #000000b4;
+    margin: auto;
+}
+.footer a{
+    text-decoration: none;
+}
+.footer a:hover{
+    text-decoration: underline;
+}
+.footer-info p{
+    color: white;
+    font-size: 20px;
+}
+.footer-info p a{
+    color: inherit;
+    text-decoration: none;
+}
+.footer-links{
+    margin: 20px 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer-link__item{
+    width: 250px;
+    min-width: 200px;
+}
+.footer-link__item a{
+    color: white;
+    font-size: 16px;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+.footer-info select{
+    background-color: orange;
+    border: 1px solid rgba(255, 255, 255, 0.466);
+    outline: none;
+    padding: 13px;
+    border-radius: 5px;
+}

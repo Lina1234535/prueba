@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciar sesión - EcoFert</title>
+    <!--G O O G L E   F O N T S-->
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cherry+Swash:wght@700&family=Fredoka+One&family=Gemunu+Libre:wght@200&family=Kaushan+Script&family=Lobster&family=Lobster+Two&family=Londrina+Outline&family=Montserrat+Alternates:wght@500&family=Nova+Slim&family=Playball&family=Righteous&family=Rum+Raisin&family=Trade+Winds&family=Yanone+Kaffeesatz:wght@400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=ZCOOL+QingKe+HuangYou&display=swap" rel="stylesheet">
+    <!--BOOTSTRAP-->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <!--QUIENES SOMOS - CSS-->
+    <link rel="stylesheet" href="./css/iniciarsesion.css">
+</head>
+<body>
+    <!---B A R R A   D E   N A V E G A C I Ó N-->
+    <nav class="navbar navbar-expand-lg navbar-default bg-warning">
+      <img src="./img/logo.png" alt="" class="logo">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-filter-circle-fill" viewBox="0 0 16 16">
+            <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zM3.5 5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1 0-1zM5 8.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm2 3a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 0 1h-1a.5.5 0 0 1-.5-.5z"/>
+          </svg>
+        </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <div class="col-md-3">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
+                </li>
+              </div>
+              <div class="col-md-4">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./iniciarsesion.html">Iniciar sesión</a>
+              </li>
+            </div>
+            <div class="col-md-3">
+              <li class="nav-item">
+                <a class="nav-link active" href="./registrarsee.html">Registrarse</a>
+              </li>
+            </div>
+            <div class="col-md-3">
+              <li class="nav-item">
+                <a class="nav-link active" href="./carrito.html">Carrito</a>
+              </li>
+            </div>
+              <div class="col-md-4">
+              <li class="nav-item">
+                <a class="nav-link active" href="./quienessomos.html">Quienes somos</a>
+              </li>
+            </div>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      
+    <!--F O R M U L A R I O   D E   I N I C I O   D E   S E S I Ó N-->
+      <div class="logo">
+        <h1>Eco<b>Fert</b></h1>
+      </div>
+      <form class="form_iniciar col-md-4">
+        <div class="titulo_reg col-md-12">
+          <h5>Iniciar sesión en EcoFert</h5>
+        </div>
+          <div class="col-md-12">
+            <label for="validationDefault01" class="form-label">Correo:</label>
+            <input type="email" class="form-control" id="validationDefault01" value="" required pattern="[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*@[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*[.][a-zA-Z]{1,5}" placeholder="*" title="debe de llevar un @ y un dominio para ser valido" >
+          </div>
+          <div class="col-md-12">
+            <label for="validationDefault02" class="form-label">Contraseña:</label>
+            <input type="password" class="form-control" id="validationDefault02" value="" required pattern="[a-zA-Z0-9_]{8,20}"  placeholder="*" title="La contraseña debe ser mayora 8 caracteres y maximo 20">
+          </div>
+        <a href="carrito.html"><input type="submit" class="boton_entrar btn-primary btn-lg" onclick="mostrar()"></input></a>
+        </div>
+          <div class="col-md-12">
+            <a href="...">¿Olvidaste tu contraseña?</a><br>
+            <hr>
+          </div>
+          <a href="registrarsee.html"><button type="button" class="btn btn-success btn-lg btn-block" >Registrarme</button> </a>
+          <div class="separador"></div>
+        </form>
+
+  
+  <!--P I E   D E   P A G I N A -->
+      <footer class="footer">
+        <div class="footer-info">
+            <p>¿Preguntas?<a href="tel:+52 771 207 14 13">Llama a +52 771 207 14 13 (HN)</a></p>
+            <ul class="footer-links">
+                <li class="footer-link__item"><a href="#">Preguntas frecuentes</a></li>
+                <li class="footer-link__item"><a href="#">Centro de ayuda</a></li>
+                <li class="footer-link__item"><a href="#">Términos y condiciones</a></li>
+                <li class="footer-link__item"><a href="#">Privacidad</a></li>
+                <li class="footer-link__item"><a href="#">Preferencias de cookies</a></li>
+                <li class="footer-link__item"><a href="#">Información corporativa</a></li>
+            </ul>
+            <select name="lenguage" id="lenguage">
+                <option value="es">Español</option>
+                <option value="es">English</option>
+            </select>
+        </div>
+    </footer>
+       <!--J a v a S c r i p t-->
+    <script src="./js/bootstrap.bundle.min.js"></script>   
+    <script src="./js/iniciosecion.js"></script> 
+      <script src="./js/restricciones.js"></script>
+
+</body>
+</html>
